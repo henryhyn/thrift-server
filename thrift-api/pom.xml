@@ -18,7 +18,7 @@
         <artifactId>thrift-maven-plugin</artifactId>
         <version>0.10.0</version>
         <configuration>
-          <thriftExecutable>/usr/local/bin/thrift</thriftExecutable>
+          <thriftExecutable>thrift</thriftExecutable>
         </configuration>
         <executions>
           <execution>
@@ -44,7 +44,6 @@
     <dependency>
       <groupId>org.apache.thrift</groupId>
       <artifactId>libthrift</artifactId>
-      <version>0.11.0</version>
     </dependency>
   </dependencies>
 </project>
